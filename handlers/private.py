@@ -9,28 +9,23 @@ from helpers.filters import other_filters2
 async def start(_, message: Message):
     await message.reply_sticker("CAACAgQAAx0CTv65QgABBfJlYF6VCrGMm6OJ23AxHmD6qUSWESsAAhoQAAKm8XEeD5nrjz5IJFYeBA")
     await message.reply_text(
-        f"""**Hey, I'm {bn} 🎵
-
-I can play music in your group's voice call. Developed by [Jason](https://t.me/ImJanindu).
-
-Add me to your group and play music freely!**
+        f"""Halo, saya adalah {bn}!
+Saya adalah bot Music yang dirancang khusus untuk menemani anda memutar musik dalam grup melalui obrolan suara.
+Masukkan saya kedalam grup, dan dengarkan musik sepuasnya!
         """,
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "🛠 Source Code 🛠", url="https://github.com/ImJanindu/GroupMusicBot")
+                        "CARA PENGGUNAAN", url="https://t.me/boimusicbotinfo/17")
                   ],[
                     InlineKeyboardButton(
-                        "💬 Group", url="https://t.me/InfinityBOTs_Support"
+                        "OWNER BOT", url="https://t.me/boiii999"
                     ),
                     InlineKeyboardButton(
-                        "🔊 Channel", url="https://t.me/Infinity_BOTs"
+                        "INSTAGRAM", url="https://www.instagram.com/aipmarvelous/"
                     )
-                ],[ 
-                    InlineKeyboardButton(
-                        "➕ Add To Your Group ➕", url="https://t.me/JEGroupMusicPlayerBot?startgroup=true"
-                    )]
+                ]
             ]
         ),
      disable_web_page_preview=True
@@ -38,12 +33,12 @@ Add me to your group and play music freely!**
 
 @Client.on_message(filters.command("start") & ~filters.private & ~filters.channel)
 async def gstart(_, message: Message):
-      await message.reply_text("""**Group Music Player Online ✅**""",
+      await message.reply_text("""**Bot Musik Online ✅**""",
       reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "🔊 Channel", url="https://t.me/Infinity_BOTs")
+                        "CARA PENGGUNAAN", url="https://t.me/boimusicbotinfo/17")
                 ]
             ]
         )
