@@ -17,7 +17,7 @@ Masukkan saya kedalam grup, dan dengarkan musik sepuasnya!
             [
                 [
                     InlineKeyboardButton(
-                        "CARA PENGGUNAAN", url="https://t.me/boimusicbotinfo/17")
+                        "CARA PENGGUNAAN", url="https://telegra.ph/CARA-PENGGUNAAN-BOT-04-28")
                   ],[
                     InlineKeyboardButton(
                         "Grup Aing", url="https://t.me/maribicaraa"
@@ -38,7 +38,7 @@ async def gstart(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "CARA PENGGUNAAN", url="https://t.me/boimusicbotinfo/17")
+                        "CARA PENGGUNAAN", url="https://telegra.ph/CARA-PENGGUNAAN-BOT-04-28")
                 ]
             ]
         )
