@@ -20,10 +20,10 @@ Masukkan saya kedalam grup, dan dengarkan musik sepuasnya!
                         "CARA PENGGUNAAN", url="https://t.me/boimusicbotinfo/17")
                   ],[
                     InlineKeyboardButton(
-                        "OWNER BOT", url="https://t.me/boiii999"
+                        "Grup Aing", url="https://t.me/maribicaraa"
                     ),
                     InlineKeyboardButton(
-                        "INSTAGRAM", url="https://www.instagram.com/aipmarvelous/"
+                        "Channel Aing", url="https://t.me/coverbuatsendiri/"
                     )
                 ]
             ]
