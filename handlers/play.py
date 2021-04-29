@@ -132,7 +132,7 @@ async def play(_, message: Message):
                     [
                         InlineKeyboardButton(
                             text="Cara Penggunaan",
-                            url=f"https://t.me/boimusicbotinfo/17")
+                            url=f"https://telegra.ph/CARA-PENGGUNAAN-BOT-04-28")
 
                     ]
                 ]
